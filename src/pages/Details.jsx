@@ -45,7 +45,7 @@ const Details = () => {
                 <p className='font-light text-slate-300 text-lg mt-2'>{movie?.description}</p>
                 <button className='bg-white px-15 hover:cursor-pointer text-black py-3 mt-3 rounded-lg font-semibold'>Add to wishlist</button>
             </div>
-            <button onClick={volumeHandler} className='absolute top-96 right-55 border border-white rounded-full p-3'>{volume ? <MuteIcon/> : <UnmuteIcon/>}</button>
+            <button onClick={volumeHandler} className='absolute top-115 right-55 border border-white rounded-full p-3'>{volume ? <MuteIcon/> : <UnmuteIcon/>}</button>
         </div>
 
          <h1 className='font-extrabold text-3xl m-7 font-serif text-white text-shadow-black text-shadow-sm'>Movie Suggestions</h1>
