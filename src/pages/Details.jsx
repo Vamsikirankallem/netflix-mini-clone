@@ -53,7 +53,7 @@ const Details = () => {
         <div className='flex flex-row gap-4 m-5'>
            
             {
-                suggestions.map((suggestedMovie)=><MovieCard img={suggestedMovie?.img}/>)
+                suggestions.map((suggestedMovie)=><MovieCard img={suggestedMovie?.img} slug={suggestedMovie?.slug}/>)
             }
         </div>
   </>
